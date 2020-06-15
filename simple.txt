@@ -1,0 +1,22 @@
+https://chart.googleapis.com/chart?cht=qr&chs=200&chl=https://vnexpress.net/?Hello+world&choe=UTF-8
+
+https://developers.google.com/chart/infographics/docs/qr_codes
+
+senorita
+google-site-verification=ko5q9lQx--poiGF2SJZePgpgfOnV-vAZZn0ofk5UG2o
+
+1
+Install Firebase CLI
+npm install -g firebase-tools
+
+
+2
+Sign in to Google
+
+firebase login
+firebase init
+firebase deploy
+
+npm start
+npm run build
+serve -s build
