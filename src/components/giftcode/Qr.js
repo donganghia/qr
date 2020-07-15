@@ -29,8 +29,8 @@ export default class QrGiftCode extends Component {
       return (
             <form >
                   <div className="text-center form-group">
-                        <h4 className="text-info" >Quà tặng mua hàng</h4>
-                        <img className="img-thumbnail rounded" src={'https://scontent.fkix2-2.fna.fbcdn.net/v/t1.15752-9/96215164_2809475875953509_3584480641820917760_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=axqVRgu-2i0AX8g-EW0&_nc_ht=scontent.fkix2-2.fna&oh=4c05a0d738effa6be287ffb75533e82e&oe=5EDE3E18'} />
+                        <h4 className="text-info" >Quà tặng mua hàng trị giá 20%</h4>
+                        <img className="img-thumbnail rounded" src={'/giftcode.png'} />
                         <img className="" src={'https://chart.googleapis.com/chart?cht=qr&chs=250&chl='+url+'&choe=UTF-8'} />
                   </div>
             </form>

@@ -6,7 +6,7 @@ export default class CreateGiftCode extends Component {
     state = {
         redirect: false,
         key: null,
-        amount: 20000, 
+        amount: 20, 
         active: 1 ,
         date: null     
     }  
@@ -54,7 +54,7 @@ export default class CreateGiftCode extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <h3>Create Giftcode</h3>
                     <div className="form-group">
-                        <label>Amount</label>
+                        <label>Coupon (%)</label>
                         <input  
                             type="number" 
                             id="amount"

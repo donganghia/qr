@@ -73,10 +73,10 @@ export default class DetailGiftCode extends Component {
                               value={this.state.key} 
                               className="form-control" />
 
-                        <label>Giá trị </label>
+                        <label>Giá trị</label>
                         <input  
                               disabled
-                              value={this.state.amount !== null ? formatter.format(this.state.amount) : null} 
+                              value={this.state.amount !== null ? this.state.amount+'%' : null}
                               className="form-control" /> 
 
                         <label>Trạng thái</label>    
